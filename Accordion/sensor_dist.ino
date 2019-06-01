@@ -7,14 +7,14 @@
     
     
     // HC SR04 pin definition
-    const int trigPin = 8;
+    const int trigPin = 6;
     const int echoPin = 7;
     
     
     //Use of 3 LEDs (Red, Green and Blue to check if the bellows are being pressed or expanded
     
-    const int plusLed = 2;
-    const int minusLed = 12;
+    const int plusLed = 8;
+    const int minusLed = 9;
     const int zeroLed = 10;
     
     //distance measurements
